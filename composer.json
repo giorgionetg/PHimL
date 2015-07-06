@@ -1,0 +1,22 @@
+{
+    "name": "giorgionetg/phiml",
+    "type": "library",
+    "description": "It is simply library to have Photoshop/Gimp features (as levels, filters, curves) via a Php Library",
+    "license": "MIT",
+    "keywords": ["gimp for php", "photoshop for php", "image", "manipulation"],
+    "authors": [
+        {
+            "name": "Giorgio Tedesco",
+            "email": "gt@giorgiotedesco.it"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": { "PHimL\\": "lib/" }
+    }
+}
