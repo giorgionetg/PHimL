@@ -8,19 +8,11 @@ class AppTest extends PHPUnit_Framework_TestCase
      */
     public function testInitialization()
     {
-        $phiml = PHimL\App::initApp();
+        $phiml = new PHimL\App();
         
         $this->assertInstanceOf('PHimL\App', $phiml);
-        
-    }
-    
-    public function testSetLevel()
-    {
-        $phiml = PHimL\App::initApp();
-        $phiml->setLevels();
-        
-        $this->assertInstanceOf('PHimL\Core\Level', $phiml->levels);
-        
+        $this->assertInstanceOf('PHiml\Abstraction\GdLibrary', $phiml->library);
+
     }
     
 }
