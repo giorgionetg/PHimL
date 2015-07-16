@@ -17,9 +17,12 @@ class App {
     
     public $library;
     
-    public function __construct()
+    public function __construct($width, $height)
     {
         $this->library = new GdLibrary();
+        
+        // $this->level 
+        
     }
     
 }

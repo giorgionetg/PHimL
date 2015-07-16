@@ -22,4 +22,9 @@ class GdLibrary extends BaseLibrary implements LibraryInterface
         
     }
     
+    public function writePixelValue($row, $col, $alpha = 100)
+    {
+        
+    }
+    
 }

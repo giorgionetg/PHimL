@@ -8,4 +8,6 @@ interface LibraryInterface
     public function getImageSize();
     public function setImageResource($path); // Return PHimL\Core\Image instance
     public function getPixelValue($row, $col);
+    public function writePixelValue($row, $col, $alpha = 100);
+    
 }

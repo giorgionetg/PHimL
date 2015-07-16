@@ -5,13 +5,18 @@ namespace PHimL\Core;
 
 class Pixel {
 
-    protected $x;
-    protected $y;
-    protected $rgba;
+    protected $row;
+    protected $col;
+    protected $rgb;
+    protected $alpha;
     
-    public function getPixel($x, $y)
+    public function getPixel($row, $col)
     {
         
+    }
+    
+    public function setPixel($row, $col)
+    {
         
     }
     
